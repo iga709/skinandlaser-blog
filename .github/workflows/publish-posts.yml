@@ -1,0 +1,30 @@
+# Checks every blog post (content/posts/*.json) is valid.
+# skinandlaser.ae reads this public repository about once an hour and adds new posts itself,
+# so no FTP details or passwords are needed here.
+name: Check blog posts
+on:
+  push:
+    branches: [main]
+    paths: ['content/posts/**']
+  workflow_dispatch:
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check every post is valid JSON with the required fields
+        run: |
+          python3 - <<'PY'
+          import json, glob, sys
+          need = ['slug','title','h1','desc','cat','answer','body','status','published']
+          bad = 0
+          for f in glob.glob('content/posts/*.json'):
+              try:
+                  d = json.load(open(f, encoding='utf-8'))
+                  miss = [k for k in need if not d.get(k)]
+                  if miss: print(f, 'missing', miss); bad += 1
+                  if d.get('slug') + '.json' != f.split('/')[-1]: print(f, 'slug does not match file name'); bad += 1
+              except Exception as e:
+                  print(f, 'invalid JSON', e); bad += 1
+          sys.exit(1 if bad else 0)
+          PY

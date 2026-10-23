@@ -1,0 +1,65 @@
+{
+ "slug": "q-switch-laser-dubai",
+ "title": "Q-Switch Laser in Dubai: What It Treats",
+ "h1": "Q-switch laser at Skin & Laser: what it treats",
+ "desc": "The Q-switched Nd:YAG laser at Skin & Laser Dubai Marina: how nanosecond pulses treat pigmentation, tattoos and laser facials, sessions and safety.",
+ "cat": "Laser skin",
+ "img": "/assets/img/journal/q-switch-laser-dubai.svg",
+ "answer": "A Q-switched Nd:YAG laser fires very short, high-energy nanosecond pulses that shatter pigment and ink into particles the body clears. At Skin & Laser in Dubai Marina it is used for laser pigment removal, tattoo removal and Q-switch laser facials.",
+ "facts": [
+  [
+   "Type",
+   "Q-switched Nd:YAG"
+  ],
+  [
+   "Pulse",
+   "Nanoseconds"
+  ],
+  [
+   "Treats",
+   "Pigment, tattoos, laser facials"
+  ],
+  [
+   "Downtime",
+   "Little; spots darken then flake"
+  ],
+  [
+   "Pigment removal",
+   "AED 600 + VAT"
+  ],
+  [
+   "Tattoo removal",
+   "From AED 750 + VAT"
+  ]
+ ],
+ "body": "## What it treats\n\n- Sun spots, freckles and brown marks: [laser pigment removal](/treatments/pigmentation-laser-treatment-dubai/)\n- Tattoos: [laser tattoo removal](/treatments/laser-tattoo-removal-dubai/)\n- Dull skin and pores: Q-switch laser facials\n\n## Q-switch or pico?\n\nPico pulses are shorter still and use less heat. See [pico vs Q-switch](/blog/pico-vs-q-switch/).",
+ "prices": [
+  [
+   "Laser pigment removal",
+   600
+  ],
+  [
+   "Tattoo removal, from",
+   750
+  ]
+ ],
+ "faq": [
+  [
+   "Is Q-switch laser safe for darker skin?",
+   "Yes, with correct settings chosen at consultation."
+  ],
+  [
+   "How many sessions do I need?",
+   "Pigment often needs 1 to 3; tattoos need more."
+  ]
+ ],
+ "related": [
+  "pigmentation-laser-treatment-dubai",
+  "laser-tattoo-removal-dubai",
+  "pico-vs-q-switch"
+ ],
+ "status": "published",
+ "published": "2026-10-15",
+ "updated": "2026-10-15",
+ "parent": "pigmentation-laser-treatment-dubai"
+}
